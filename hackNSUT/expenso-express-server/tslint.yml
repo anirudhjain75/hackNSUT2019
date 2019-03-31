@@ -1,0 +1,36 @@
+---
+extends: "tslint:latest"
+# rulesDirectory:
+    # - path/to/custom/rules/directory/
+    # - another/path/
+linterOptions:
+  exclude:
+    - node_modules/**
+    - dist
+    - src/services/prisma/**
+rules:
+    max-line-length:
+        options: [120]
+    indent: true
+    align: false
+    interface-name: false
+    new-parens: true
+    trailing-comma: false
+    object-literal-sort-keys: false
+    max-classes-per-file: false
+    no-arg: true
+    no-bitwise: true
+    no-conditional-assignment: true
+    no-consecutive-blank-lines: false
+    no-console: false
+        # severity: warning
+        # options:
+        #     - debug
+        #     - info
+        #     - log
+        #     - time
+        #     - timeEnd
+        #     - trace
+jsRules:
+    max-line-length:
+        options: [120]

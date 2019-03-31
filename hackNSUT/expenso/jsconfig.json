@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "api": ["api/*"],
+      "assets": ["assets/*"],
+      "theme": ["theme/*"],
+      "components": ["components/*"],
+      "styles": ["styles/*"],
+      "screens": ["screens/*"],
+      "navigation": [
+        "navigation/*"
+      ],
+      "utils": ["utils"],
+      "test": ["__test__/*"],
+    }
+  }
+}

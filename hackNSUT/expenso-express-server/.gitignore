@@ -1,0 +1,10 @@
+.env
+# Coverage directory
+.nyc_output
+
+# Dependency directory
+node_modules
+dist
+coverage
+# **/*.key*
+.DS_Store

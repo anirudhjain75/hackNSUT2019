@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Leibniz",
+    "slug": "leibniz",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "io.mzeroes.services.leibniz"
+    },
+    "android": {
+      "package": "io.mzeroes.services.leibniz",
+      "googleServicesFile": "./config/google-services.json"
+    },
+    "scheme": "leibniz"
+  }
+}

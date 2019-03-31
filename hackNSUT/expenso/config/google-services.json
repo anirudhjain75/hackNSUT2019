@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "689176639770",
+    "firebase_url": "https://gottfried-leibniz.firebaseio.com",
+    "project_id": "gottfried-leibniz",
+    "storage_bucket": "gottfried-leibniz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689176639770:android:a18709123832d644",
+        "android_client_info": {
+          "package_name": "io.mzeroes.services.leibniz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689176639770-32fm1sumtp7ng2jlc535q3qoomdtvcbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.mzeroes.services.leibniz",
+            "certificate_hash": "b55d83552b7cba28325a47ff38d9704561740a2c"
+          }
+        },
+        {
+          "client_id": "689176639770-tokjfdm46rnlepnna7kbedd674pgum2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNcNCu9QptNrC2-YQ3NrUobTJO28kaxhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689176639770-tokjfdm46rnlepnna7kbedd674pgum2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
